@@ -12,7 +12,10 @@ This repository contains two folders, 'combined' and 'separate'.
 - Move **alpha_zero_v2.py** into open_spiel/python/algorithms/alpha_zero/
 
 You can now begin training using the command:
+
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --game=tic_tac_toe --path=...```
+
 Or resume training from an existing checkpoint:
+
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --checkpoint=25 --max_steps=10 --path=...```
 
