@@ -15,7 +15,8 @@ You can now begin training using the command:
 
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --game=tic_tac_toe --path=...```
 
-Or resume training from an existing checkpoint:
+Or resume training from an existing checkpoint (only specifying the checkpoint, max_steps, and path flags):
 
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --checkpoint=25 --max_steps=10 --path=...```
 
+Where checkpoint is the checkpoint to start from (must have model weights for that checkpoint, use ```checkpoint=-1``` for the most recent checkpoint), max_steps is the
