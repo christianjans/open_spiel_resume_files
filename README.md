@@ -23,7 +23,7 @@ You can now begin training using the command:
 
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --game=tic_tac_toe --uct_c=...```
 
-Or resume training from an existing checkpoint (only specifying the checkpoint, max_steps, and path flags):
+Or resume training from an existing checkpoint (only specifying the ```checkpoint```, ```max_steps```, and ```path``` flags, **other flags will be ignored**. Setting the ```checkpoint``` flag indicates you want to start from a checkpoint.):
 
   ```python3 open_spiel/python/examples/alpha_zero_v2_example.py --checkpoint=25 --max_steps=10 --path=...```
 
@@ -39,7 +39,7 @@ You can now begin training using the command:
 
   ```python3 open_spiel/python/examples/alpha_zero.py --game=tic_tac_toe --uct_c=...```
 
-Or resume training from an existing checkpoint (only specifying the ```checkpoint```, ```max_steps```, and ```path``` flags):
+Or resume training from an existing checkpoint (only specifying the ```checkpoint```, ```max_steps```, and ```path``` flags, **other flags will be ignored**. Setting the ```checkpoint``` flag indicates you want to start from a checkpoint.):
 
   ```python3 open_spiel/python/examples/alpha_zero_from_checkpoint.py --checkpoint=25 --steps=10 --path=...```
 
